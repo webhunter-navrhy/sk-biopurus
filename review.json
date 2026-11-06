@@ -1,0 +1,16 @@
+{
+  "znamka": 8,
+  "slabiny": [
+    "Hero na mobilu (mobil 1): pět produktů v kruhu má jen asi 30–60 px na výšku, takže se nedají rozpoznat a hero na telefonu nic neprodává. Oprava: na šířce pod 600 px dát do kruhu jen 3 produkty (olej, Hyson, sviečka), zvětšit je na 70–80 % průměru kruhu a kruh roztáhnout na celou šířku obsahu.",
+    "Hero na PC (PC 1): kompozice přesahuje kruh nesouměrně. Levá lahev oleje stojí celá mimo kruh (asi x 350 v buňce), sviečka vpravo z kruhu napůl vyčnívá a vlevo zůstává mezera. Působí to náhodně, ne záměrně. Oprava: produkty vycentrovat na střed kruhu se stejným přesahem na obou stranách (např. obě krajní položky přesahují o stejných asi 40 px) a zarovnat je na společnou spodní linku.",
+    "O nás (PC 3, mobil 6): víčko sviečky vlevo přesahuje kruh a je uříznuté u okraje kompozice (PC asi x 65). Kruh začíná o 30 px níž než text a končí asi 100 px pod tlačítkem Zoznam predajní. Oprava: kruh zarovnat horní hranou na první odstavec a spodní na tlačítko, víčko posunout dovnitř kruhu (nebo ho vynechat) a sekci dole zkrátit podle konce kruhu."
+  ],
+  "zavazne": [],
+  "silne": [
+    "Všechny tři minulé výtky jsou opravené. Kruh v hero se vykresluje celý a ukazuje oleje, čaj Hyson, krém i sviečku. O nás má místo malé kávy kompozici sviečka, olej a káva na stejném fialovém kruhu jako hero. V ponuce už nic není roztažené (QA bez chyb) a sviečka je bez šedého studiového pozadí.",
+    "Brand sedí: logo Biopurus vlevo v hlavičce, fialová #843fa1 z loga jako jediný akcent, skutečné packshoty z e-shopu klienta a slovenské texty podle jeho webu bez vymyšlených čísel a recenzí.",
+    "Klidná e-shopová skladba bez AI vzorů (žádný marquee, číslování ani tmavé pruhy), Fraunces + Figtree s v pořádku vykreslenou diakritikou, na žádné šířce nic nepřetéká. Kontakt s IČO, e-mailem a formulářem je na mobilu přehledný."
+  ],
+  "verdikt": "Minulé výtky jsou opravené a závažná vada není. Web je čistý, v brandu klienta a pravdivý, takže ho jde poslat. Zbývá doladit hero na mobilu a souměrnost kompozic v kruzích.",
+  "_hash": "afd3c616c9f23ebe308b564e52d4ba38bad1f575"
+}

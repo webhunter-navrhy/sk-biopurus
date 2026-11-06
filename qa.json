@@ -1,0 +1,70 @@
+{
+  "url": "http://localhost:8791/sk-biopurus/",
+  "ok": true,
+  "chyby": [],
+  "varovani": [
+    "Web má noindex (u ostrého webu pravděpodobně chyba)",
+    "Dotykové cíle <40 px na mobilu: 2× (např. a.skip \"Preskočiť na obsah\" 143×27; a \"biopurus@biopurus.sk\" 151×18)"
+  ],
+  "metriky": {
+    "sirky": {
+      "1440": {
+        "scrollWidth": 1440,
+        "pocet_pretekajicich": 0
+      },
+      "1280": {
+        "scrollWidth": 1280,
+        "pocet_pretekajicich": 0
+      },
+      "1024": {
+        "scrollWidth": 1024,
+        "pocet_pretekajicich": 0
+      },
+      "820": {
+        "scrollWidth": 820,
+        "pocet_pretekajicich": 0
+      },
+      "390": {
+        "scrollWidth": 390,
+        "pocet_pretekajicich": 0
+      },
+      "360": {
+        "scrollWidth": 360,
+        "pocet_pretekajicich": 0
+      }
+    },
+    "preneseno_PC_MB": 0.38,
+    "nejvetsi_obrazek_PC": {
+      "kB": 33,
+      "url": "http://localhost:8791/sk-biopurus/logo.png"
+    },
+    "snimku_PC": 3,
+    "preneseno_mobil_MB": 0.46,
+    "nejvetsi_obrazek_mobil": {
+      "kB": 33,
+      "url": "http://localhost:8791/sk-biopurus/logo.png"
+    },
+    "snimku_mobil": 7,
+    "seo": {
+      "title": "Biopurus – zdravé oleje, čaje a prírodná kozmetika",
+      "description": "Biopurus z Partizánskeho: biopotraviny, zdravé oleje, výživové doplnky, prírodná kozmetika a čaje. O",
+      "lang": "sk",
+      "h1": 1,
+      "jsonld": [
+        true
+      ],
+      "robots": "noindex, nofollow",
+      "og_image": "https://webhunter-navrhy.github.io/sk-biopurus/og.jpg",
+      "bez_v": [],
+      "canonical": true,
+      "viewport": true
+    },
+    "maly_dotykovy_cil": 2,
+    "font_nadpis": "Fraunces",
+    "font_text": "Figtree",
+    "podstranky": {
+      "stranek": 1,
+      "obrazku": 28
+    }
+  }
+}

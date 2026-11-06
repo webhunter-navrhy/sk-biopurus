@@ -1,0 +1,68 @@
+{% extends "_base.html" %}
+{% set titulek = 'Biopurus – zdravé oleje, čaje a prírodná kozmetika' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="stitok">E-shop zo Partizánskeho</p>
+      <h1>Zdravé oleje, čaje a&nbsp;prírodná kozmetika na jednom mieste</h1>
+      <p class="uvod">Biopurus ponúka biopotraviny, výživové doplnky, kozmetické oleje, čaje a darčekové balenia. Vyberte si z&nbsp;kategórií a objednajte priamo v&nbsp;našom e-shope.</p>
+      <p class="tlacidla"><a class="btn" href="https://www.biopurus.sk" rel="noopener">Prejsť do e-shopu</a> <a class="btn btn-ghost" href="#ponuka">Pozrieť ponuku</a></p>
+    </div>
+    <div class="polica" aria-hidden="false">
+      <figure class="fl f1">{{ img('p-bodliak.jpg', 'Bodliakový olej 500 ml', sizes='(min-width: 60rem) 10rem, 20vw') }}</figure>
+      <figure class="fl f2">{{ img('p-cedr.jpg', 'Cédrový olej 500 ml', sizes='(min-width: 60rem) 10rem, 20vw') }}</figure>
+      <figure class="fl f3">{{ img('p-caj.jpg', 'Zelený čaj Hyson 100 g', sizes='(min-width: 60rem) 10rem, 20vw') }}</figure>
+      <figure class="fl f4">{{ img('p-krem.jpg', 'Prírodný krém na ruky', sizes='(min-width: 60rem) 10rem, 20vw') }}</figure>
+      <figure class="fl f5">{{ img('p-sviecky.jpg', 'Sójová sviečka levanduľová', sizes='(min-width: 60rem) 10rem, 20vw') }}</figure>
+    </div>
+  </div>
+</section>
+
+<section class="sekce" id="ponuka">
+  <div class="wrap">
+    <div class="hlavicka-sekcie">
+      <h2>Z našej ponuky</h2>
+      <p>Hlavné kategórie e-shopu. Celý sortiment a aktuálne ceny nájdete v&nbsp;e-shope.</p>
+    </div>
+    <ul role="list" class="kategorie">
+      <li class="kat"><a href="https://www.biopurus.sk" rel="noopener">{{ img('p-mak.jpg', 'Makový olej SOLIO 500 ml', sizes='(max-width:600px) 100vw, 400px') }}<h3>Zdravé oleje</h3><p>Tekvicový, cédrový, bodliakový, makový a ďalšie oleje, aj v&nbsp;spreji.</p></a></li>
+      <li class="kat"><a href="https://www.biopurus.sk" rel="noopener">{{ img('p-aloe.jpg', 'Šťava z aloe vera 500 ml', sizes='(max-width:600px) 100vw, 400px') }}<h3>Výživové doplnky a šťavy</h3><p>Kapsuly, elixíry, prírodné šťavy a bylinné produkty.</p></a></li>
+      <li class="kat"><a href="https://www.biopurus.sk" rel="noopener">{{ img('p-krem.jpg', 'Prírodný krém na ruky', sizes='(max-width:600px) 100vw, 400px') }}<h3>Kozmetické výrobky</h3><p>Kozmetické oleje, prírodné krémy, minerálna kozmetika a repelenty.</p></a></li>
+      <li class="kat"><a href="https://www.biopurus.sk" rel="noopener">{{ img('p-caj.jpg', 'Zelený čaj Hyson 100 g', sizes='(max-width:600px) 100vw, 400px') }}<h3>Čaje a káva</h3><p>Prírodné čaje, púpavová a reishi káva, ovocné a bylinné vína zo Slovenska.</p></a></li>
+      <li class="kat"><a href="https://www.biopurus.sk" rel="noopener">{{ img('p-rasca.jpg', 'Semená čiernej rasce', sizes='(max-width:600px) 100vw, 400px') }}<h3>Semená a sušené plody</h3><p>Chia, quinoa, goji, kokosový a brezový cukor.</p></a></li>
+      <li class="kat"><a href="https://www.biopurus.sk" rel="noopener">{{ img('p-sviecky.jpg', 'Sójové sviečky', sizes='(max-width:600px) 100vw, 400px') }}<h3>Tip na darček</h3><p>Sójové sviečky, éterické oleje, vône do auta a darčekové kazety.</p></a></li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce pas o-nas-sekce" id="o-nas">
+  <div class="wrap dva">
+    <div>
+      <h2>O nás</h2>
+      <div class="fl-o">
+        <div class="kompo">{{ img('p-sviecky.jpg', 'Sójová sviečka levanduľová', sizes='(max-width:600px) 40vw, 14rem') }}{{ img('p-cedr.jpg', 'Cédrový olej 500 ml', sizes='(max-width:600px) 30vw, 10rem') }}{{ img('p-kava.jpg', 'Púpavová káva instant 100 g', sizes='(max-width:600px) 30vw, 11rem') }}</div>
+      </div>
+    </div>
+    <div class="text">
+      <p>Biopurus je slovenský obchod so zdravou výživou a prírodnými produktmi so sídlom v&nbsp;Partizánskom. V&nbsp;e-shope nájdete biopotraviny, zdravé oleje, výživové doplnky, prírodnú kozmetiku, čaje a darčeky.</p>
+      <p>Na webe zverejňujeme aj novinky a články, napríklad o&nbsp;bylinných tinktúrach a ich použití. Ak si neviete vybrať, napíšte nám a poradíme.</p>
+      <p>Naše produkty nájdete aj v kamenných predajniach. Aktuálny zoznam je v&nbsp;e-shope.</p>
+      <p class="tlacidla" style="margin-top:.5rem"><a class="btn btn-ghost" href="https://www.biopurus.sk/biopurus/eshop/40-1-Zoznam-predajni" rel="noopener">Zoznam predajní</a></p>
+    </div>
+  </div>
+</section>
+
+<section class="sekce pas" id="kontakt">
+  <div class="wrap dva">
+    <div>
+      <h2>Kontakt</h2>
+      <p class="kontakt-udaje">Biopurus<br>Partizánske<br>IČO 43354513<br><a href="mailto:biopurus@biopurus.sk">biopurus@biopurus.sk</a></p>
+    </div>
+    <div>
+      {% include "_formular.html" %}
+    </div>
+  </div>
+</section>
+{% endblock %}
